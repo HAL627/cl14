@@ -1,0 +1,103 @@
+body{
+    margin:0;
+}
+
+#field{
+    position:relative;
+    width:960px;
+    height:534px;
+}
+
+#bg0{
+    position:absolute;
+    left:0;
+    top:0;
+    z-index:0;
+}
+
+#bg1{
+    position:absolute;
+    left:0;
+    top:0;
+    z-index:20;
+    pointer-events:none;
+}
+
+#message{
+    position:absolute;
+    left:20px;
+    top:20px;
+    padding:10px 15px;
+    background:rgba(255,255,255,0.7);
+    z-index:100;
+    pointer-events:none;
+}
+
+#message p{
+    margin:0;
+    color:#cc2b6a;
+    font-size:20px;
+    font-weight:bold;
+}
+
+#message p:last-child{
+    margin-top:5px;
+}
+
+.butterfly{
+    position:absolute;
+    width:70px;
+    cursor:pointer;
+    z-index:30;
+    transition:left 1.2s ease-in-out,
+               top 1.2s ease-in-out;
+}
+
+#butterfly1{
+    left:220px;
+    top:70px;
+}
+
+#butterfly2{
+    left:300px;
+    top:190px;
+}
+
+#butterfly3{
+    left:160px;
+    top:390px;
+}
+
+.foo{
+    position:absolute;
+    width:35px;
+    cursor:pointer;
+    z-index:10;
+    transition:left 0.8s ease-in-out,
+               top 0.8s ease-in-out;
+}
+
+#foo1{
+    left:430px;
+    top:220px;
+}
+
+#foo2{
+    left:560px;
+    top:260px;
+}
+
+#foo3{
+    left:660px;
+    top:220px;
+}
+
+#foo4{
+    left:510px;
+    top:320px;
+}
+
+#foo5{
+    left:610px;
+    top:310px;
+}
